@@ -37,7 +37,7 @@ body {
 .news {
     grid-row: 3/5;
     grid-column: 2;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 .registration {
     padding-left: 20px;
@@ -54,4 +54,12 @@ body {
 .navbar-nav li{
     float: none;
     display: inline-block;
+}
+
+.bigpic {
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
 }
