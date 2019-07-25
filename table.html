@@ -1,118 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <link rel="stylesheet" type="text/css" href="hkkt.css">
-        <!-- Bootstrap import -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap" rel="stylesheet">
-        <title>Premier League 2019/2020</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-</head>
-<body>
-    
-<div>
-    <div class="container">
+  <head>
+    <link rel="stylesheet" type="text/css" href="hkkt.css" />
+    <!-- Bootstrap import -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Premier League 2019/2020</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
         <!-- Header -->
         <div class="jumbotron"></div>
 
         <div class="menu">
-            <!-- Navigation bar-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="">Premier League</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="hkkt.html">Főoldal <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="eredmenyek.html">Eredmények</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="table.html">Tabella</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+          <!-- Navigation bar-->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="">Premier League</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="hkkt.html"
+                    >Főoldal <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="eredmenyek.html">Eredmények</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="table.html">Tabella</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
         <!--Linkek baloldalt-->
         <div class="links">
-                <ul class="list-group">
-                        <a href="https://www.eredmenyek.com/" target="_blank"><li class="list-group-item">Eredmények.com</li></a>
-                        <a href="https://www.fifa.com/" target="_blank"><li class="list-group-item">FIFA</li></a>
-                        <a href="https://www.premierleague.com/" target="_blank"><li class="list-group-item">Premier League</li></a>
-                        <a href="https://www.bet365.com/" target="_blank"><li class="list-group-item">Bet365</li></a>
-                        <a href="https://www.tippmixpro.hu/" target="_blank"><li class="list-group-item">Tippmix online</li></a>
-                        <a href="https://sports.sportingbet.com/hu/sports" target="_blank"><li class="list-group-item">Sportingbet</li></a>
-                        <a href="http://www.thefa.com/" target="_blank"><li class="list-group-item">FA</li></a>
-                        <a href="https://www.uefa.com/" target="_blank"><li class="list-group-item">UEFA</li></a>
-                      </ul>
+          <ul class="list-group">
+            <a href="https://www.eredmenyek.com/" target="_blank"
+              ><li class="list-group-item">Eredmények.com</li></a
+            >
+            <a href="https://www.fifa.com/" target="_blank"
+              ><li class="list-group-item">FIFA</li></a
+            >
+            <a href="https://www.premierleague.com/" target="_blank"
+              ><li class="list-group-item">Premier League</li></a
+            >
+            <a href="https://www.bet365.com/" target="_blank"
+              ><li class="list-group-item">Bet365</li></a
+            >
+            <a href="https://www.tippmixpro.hu/" target="_blank"
+              ><li class="list-group-item">Tippmix online</li></a
+            >
+            <a href="https://sports.sportingbet.com/hu/sports" target="_blank"
+              ><li class="list-group-item">Sportingbet</li></a
+            >
+            <a href="http://www.thefa.com/" target="_blank"
+              ><li class="list-group-item">FA</li></a
+            >
+            <a href="https://www.uefa.com/" target="_blank"
+              ><li class="list-group-item">UEFA</li></a
+            >
+          </ul>
         </div>
         <div class="gallery">
-            <br>
-            <p id="galeria"><strong>Galéria</strong></p>
-              <a href="gallery.html"><img src="pictures/pornhub.png"></a>
+          <br />
+          <p id="galeria"><strong>Galéria</strong></p>
+          <a href="gallery.html"><img src="pictures/pornhub.png"/></a>
         </div>
 
-
         <div class="news">
-                <table>
-                        
-                        <thead><th>#</th><th>csapat neve</th><th>Lm</th><th>GY</th><th>D</th><th>V</th><th>G</th><th>P</th></thead>
-                        <tr><td>1.</td><td><a href="https://www.mancity.com/" target="_blank">Manchester City Fc.</a></td><td>38</td><td>32</td><td>2</td><td>4</td><td>95-23</td><td>98</td></tr>
-                        <tr><td>2.</td><td><a href="https://www.liverpoolfc.com/" target="_blank">Liverpool Fc.</a></td><td>38</td><td>30</td><td>7</td><td>1</td><td>87-43</td><td>97</td></tr>
-                        <tr><td>3.</td><td><a href="https://www.chelseafc.com/en" target="_blank">Chelsea Fc.</a></td><td>38</td><td>21</td><td>9</td><td>8</td><td>58-36</td><td>72</td></tr>
-                        <tr><td>4.</td><td><a href="https://www.tottenhamhotspur.com/" target="_blank">Tottenham Hotspur Fc.</a></td><td>38</td><td>23</td><td>5</td><td>10</td><td>60-35</td><td>71</td></tr>
-                        <tr><td>5.</td><td><a href="https://www.arsenal.com/" target="_blank">Arsenal Fc.</a></td><td>38</td><td>21</td><td>7</td><td>2</td><td>58-47</td><td>98</td>70</tr>
-                        <tr><td>6.</td><td><a href="https://www.manutd.com/en" target="_blank">Manchester United Fc.</a></td><td>38</td><td>19</td><td>9</td><td>10</td><td>62-46</td><td>66</td></tr>
-                        <tr><td>7.</td><td><a href="https://www.wolves.co.uk/" target="_blank">Wolverhampton Wanderers Fc.</a></td><td>38</td><td>16</td><td>9</td><td>13</td><td>64-54</td><td>57</td></tr>
-                        <tr><td>8.</td><td><a href="https://www.evertonfc.com/" target="_blank">Everton Fc.</a></td><td>38</td><td>15</td><td>9</td><td>14</td><td>60-61</td><td>54</td></tr>
-                        <tr><td>9.</td><td><a href="https://www.lcfc.com/" target="_blank">Leicester City Fc.</a></td><td>38</td><td>15</td><td>7</td><td>16</td><td>62-69</td><td>52</td></tr>
-                        <tr><td>10.</td><td><a href="https://www.whufc.com/" target="_blank">West Ham United Fc.</a></td><td>38</td><td>15</td><td>7</td><td>16</td><td>56-62</td><td>52</td></tr>
-                        <tr><td>11.</td><td><a href="https://www.watfordfc.com/" target="_blank">Watford Fc.</a></td><td>38</td><td>14</td><td>8</td><td>16</td><td>56-51</td><td>50</td></tr>
-                        <tr><td>12.</td><td><a href="https://www.cpfc.co.uk/" target="_blank">Crystal Palace Fc.</a></td><td>38</td><td>14</td><td>7</td><td>17</td><td>57-62</td><td>49</td></tr>
-                        <tr><td>13.</td><td><a href="https://www.nufc.co.uk/" target="_blank">Newcastle United Fc.</a></td><td>38</td><td>12</td><td>9</td><td>17</td><td>44-55</td><td>45</td></tr>
-                        <tr><td>14.</td><td><a href="https://www.afcb.co.uk/" target="_blank">Bournemouth</a></td><td>38</td><td>11</td><td>12</td><td>15</td><td>43-56</td><td>45</td></tr>
-                        <tr><td>15.</td><td><a href="https://www.burnleyfootballclub.com/" target="_blank">Burnley City Fc.</a></td><td>38</td><td>11</td><td>7</td><td>20</td><td>30-79</td><td>40</td></tr>
-                        <tr><td>16.</td><td><a href="https://www.southamptonfc.com/" target="_blank">Southampton Fc.</a></td><td>38</td><td>9</td><td>12</td><td>17</td><td>12-51</td><td>98</td>39</tr>
-                        <tr><td>17.</td><td><a href="https://www.brightonandhovealbion.com/" target="_blank">Brighton and Hove Albion Fc.</a></td><td>38</td><td>9</td><td>5</td><td>24</td><td>15-67</td><td>36</td></tr>
-                        <tr><td>18.</td><td><a href="https://www.cardiffcityfc.co.uk/" target="_blank">Cardiff City Fc.</a></td><td>38</td><td>10</td><td>7</td><td>21</td><td>22-76</td><td>34</td></tr>
-                        <tr><td>19.</td><td><a href="https://www.fulhamfc.com/" target="_blank">Fulham Fc.</a></td><td>38</td><td>7</td><td>10</td><td>21</td><td>27-71</td><td>98</td>26</tr>
-                        <tr><td>20.</td><td><a href="https://www.htafc.com/" target="_blank">Huddersfield Town Fc.</a></td><td>38</td><td>3</td><td>11</td><td>24</td><td>22-76</td><td>16</td></tr>
- </table>
- <br>
- 
+          <table>
+            <thead>
+              <th>#</th>
+              <th>csapat neve</th>
+              <th>Lm</th>
+              <th>GY</th>
+              <th>D</th>
+              <th>V</th>
+              <th>G</th>
+              <th>P</th>
+            </thead>
+            <tr>
+              <td>1.</td>
+              <td>
+                <a href="https://www.mancity.com/" target="_blank"
+                  >Manchester City Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>32</td>
+              <td>2</td>
+              <td>4</td>
+              <td>95-23</td>
+              <td>98</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>
+                <a href="https://www.liverpoolfc.com/" target="_blank"
+                  >Liverpool Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>30</td>
+              <td>7</td>
+              <td>1</td>
+              <td>87-43</td>
+              <td>97</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>
+                <a href="https://www.chelseafc.com/en" target="_blank"
+                  >Chelsea Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>21</td>
+              <td>9</td>
+              <td>8</td>
+              <td>58-36</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>
+                <a href="https://www.tottenhamhotspur.com/" target="_blank"
+                  >Tottenham Hotspur Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>23</td>
+              <td>5</td>
+              <td>10</td>
+              <td>60-35</td>
+              <td>71</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>
+                <a href="https://www.arsenal.com/" target="_blank"
+                  >Arsenal Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>21</td>
+              <td>7</td>
+              <td>2</td>
+              <td>58-47</td>
+              <td>98</td>
+              70
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>
+                <a href="https://www.manutd.com/en" target="_blank"
+                  >Manchester United Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>19</td>
+              <td>9</td>
+              <td>10</td>
+              <td>62-46</td>
+              <td>66</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>
+                <a href="https://www.wolves.co.uk/" target="_blank"
+                  >Wolverhampton Wanderers Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>16</td>
+              <td>9</td>
+              <td>13</td>
+              <td>64-54</td>
+              <td>57</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>
+                <a href="https://www.evertonfc.com/" target="_blank"
+                  >Everton Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>15</td>
+              <td>9</td>
+              <td>14</td>
+              <td>60-61</td>
+              <td>54</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>
+                <a href="https://www.lcfc.com/" target="_blank"
+                  >Leicester City Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>15</td>
+              <td>7</td>
+              <td>16</td>
+              <td>62-69</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>
+                <a href="https://www.whufc.com/" target="_blank"
+                  >West Ham United Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>15</td>
+              <td>7</td>
+              <td>16</td>
+              <td>56-62</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td>11.</td>
+              <td>
+                <a href="https://www.watfordfc.com/" target="_blank"
+                  >Watford Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>14</td>
+              <td>8</td>
+              <td>16</td>
+              <td>56-51</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>12.</td>
+              <td>
+                <a href="https://www.cpfc.co.uk/" target="_blank"
+                  >Crystal Palace Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>14</td>
+              <td>7</td>
+              <td>17</td>
+              <td>57-62</td>
+              <td>49</td>
+            </tr>
+            <tr>
+              <td>13.</td>
+              <td>
+                <a href="https://www.nufc.co.uk/" target="_blank"
+                  >Newcastle United Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>12</td>
+              <td>9</td>
+              <td>17</td>
+              <td>44-55</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>14.</td>
+              <td>
+                <a href="https://www.afcb.co.uk/" target="_blank"
+                  >Bournemouth</a
+                >
+              </td>
+              <td>38</td>
+              <td>11</td>
+              <td>12</td>
+              <td>15</td>
+              <td>43-56</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>15.</td>
+              <td>
+                <a href="https://www.burnleyfootballclub.com/" target="_blank"
+                  >Burnley City Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>11</td>
+              <td>7</td>
+              <td>20</td>
+              <td>30-79</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>16.</td>
+              <td>
+                <a href="https://www.southamptonfc.com/" target="_blank"
+                  >Southampton Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>9</td>
+              <td>12</td>
+              <td>17</td>
+              <td>12-51</td>
+              <td>98</td>
+              39
+            </tr>
+            <tr>
+              <td>17.</td>
+              <td>
+                <a href="https://www.brightonandhovealbion.com/" target="_blank"
+                  >Brighton and Hove Albion Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>9</td>
+              <td>5</td>
+              <td>24</td>
+              <td>15-67</td>
+              <td>36</td>
+            </tr>
+            <tr>
+              <td>18.</td>
+              <td>
+                <a href="https://www.cardiffcityfc.co.uk/" target="_blank"
+                  >Cardiff City Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>10</td>
+              <td>7</td>
+              <td>21</td>
+              <td>22-76</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>19.</td>
+              <td>
+                <a href="https://www.fulhamfc.com/" target="_blank"
+                  >Fulham Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>7</td>
+              <td>10</td>
+              <td>21</td>
+              <td>27-71</td>
+              <td>98</td>
+              26
+            </tr>
+            <tr>
+              <td>20.</td>
+              <td>
+                <a href="https://www.htafc.com/" target="_blank"
+                  >Huddersfield Town Fc.</a
+                >
+              </td>
+              <td>38</td>
+              <td>3</td>
+              <td>11</td>
+              <td>24</td>
+              <td>22-76</td>
+              <td>16</td>
+            </tr>
+          </table>
+
+          <br />
         </div>
         <div class="registration">
           <form>
             <div><h1 id="feliratkozas">Regisztráció</h1></div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email cím</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">Kérjük valós email címet adjon meg</small>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Kérjük valós email címet adjon meg</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="username">Felhasználónév</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Felhasználónév"
+                required
+              />
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Jelszó</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
             </div>
             <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Feliratkozás hírlevélre</label>
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Feliratkozás hírlevélre</label
+              >
             </div>
             <button type="submit" class="btn btn-dark">Elküld</button>
           </form>
         </div>
+      </div>
     </div>
-</div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
