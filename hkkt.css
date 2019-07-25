@@ -1,109 +1,149 @@
+:root {
+  --small-text: 10px;
+  --large-text: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: var(--small-text);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  p {
+    font-size: var(--large-text);
+  }
+}
+
 body {
-    background-color: rgb(138, 145, 131);
-    margin: 7px 5px;
-    
+  background-color: rgb(138, 145, 131);
+  margin: 7px 5px;
 }
 
 h2 {
-    font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
-.grid-container {
-    
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 5fr 0.5fr 7fr 4fr;
-
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 5fr 0.5fr 7fr 4fr;
 }
 
-.jumbotron { 
-    grid-column:1/4;
-    background-image: url("header.png");
-    background-size: cover;
-    text-align: center;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+.jumbotron {
+  width: 100%;
+  grid-column: 1/4;
+  background-image: url("header.png");
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 .menu {
-    grid-row: 2;
-    grid-column:1/4;
-    background-color: blue; 
+  grid-row: 2;
+  grid-column: 1/4;
+  background-color: blue;
 }
 .links {
-    grid-row:3;
-    grid-column 1;
-    background-color: white;
-
+  grid-row: 3;
+  grid-column: 1;
+  background-color: white;
 }
 .gallery {
-    grid-row: 4;
-    grid-column: 1;
-    background-color: white;
+  grid-row: 4;
+  grid-column: 1;
+  background-color: white;
 }
 .news {
-    grid-row: 3/5;
-    grid-column: 2;
-    background-color: white;
+  grid-row: 3/5;
+  grid-column: 2;
+  background-color: white;
 }
 .registration {
-    padding-left: 20px;
-    grid-row: 3/5;
-    grid-column: 3;
-    background-image: url(reg.png);
-    background-size: cover;
+  padding-left: 20px;
+  grid-row: 3/5;
+  grid-column: 3;
+  background-image: url(reg.png);
+  background-size: cover;
 }
 
 .navbar-nav {
-    float: none;
-    text-align: center;
+  float: none;
+  text-align: center;
 }
 
-.navbar-nav li{
-    float: none;
-    display: inline-block;
+.navbar-nav li {
+  float: none;
+  display: inline-block;
 }
 
 .bigpic {
-    text-shadow:
-    0.07em 0 black,
-    0 0.07em black,
-    -0.07em 0 black,
-    0 -0.07em black;
-}
-
-.picpara {
-    font size
-    text-shadow: black;
-    0.07em 0 black,
-    0 0.07em black,
-    -0.07em 0 black,
-    0 -0.07em black;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
 }
 
 .list-group-item {
-    text-decoration-style: none;
+  text-decoration-style: none;
 }
 
-.list-group-item: :hover {
-    background-color: grey;
-    color: white;
+.list-group-item:hover {
+  background-color: grey;
+  color: white;
 }
 
 .meccs {
-    font-family: 'Roboto', sans-serif;;
-    font-size: 1.5rem;
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: lightgray;
 }
 
 .mu {
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .mc {
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
+#merkozes {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.meccs1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: white;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+a {
+  color: black;
+}
+
+#feliratkozas {
+  font-size: 1.5em;
+  width: 100%;
+  min-width: 10%;
+}
+
+#galeria {
+  text-align: center;
+}
+
+#kovi {
+    padding-right: 2%;
+}
